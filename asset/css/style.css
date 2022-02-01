@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+#logo{
+    background-color: white;
+    padding-left: 20px;
+}
+h1{
+    display: inline-block;
+    font-size: 60px;
+}
