@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: rgba(246,248,249,255);
 }
 #logo{
     background-color: white;
@@ -21,6 +21,16 @@ h1{
     background-color: white;
     margin: auto;
     border-radius: 10px;
+}
+#container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 } 
 
 .add{
@@ -36,9 +46,59 @@ h1{
 .task{
     margin-left: 40px;
     background-color: rgba(71,173,241,255);  
+    color: white;
 } 
 .section{
     color: lightgrey;
     border: 1px solid lightgrey;
     margin-left: 5px;
+}
+.none{
+    list-style-type: none;
+}
+.little{
+    font-size: 15px;
+}
+.style{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.editorial{
+    color: white;
+    background-color: rgba(69,171,234,255) ;
+}
+.goals{
+    background-color: rgba(156,114,228,255);
+}
+.recruiting{
+    background-color: green;
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: orchid;
+}
+.sales{
+    background-color: rgba(176,201,38,255);
+}
+#sign{
+    
+    border-radius: 50%;
+    padding: 2px;
+}
+.yes{
+    border: solid rgba(110,196,175,255) 2px;
+    color: rgba(110,196,175,255);
+}
+.no{
+    border: solid red 2px ;
+    font-size: 12px;
+}
+.last{
+    margin-bottom: 40px;
+}
+li{
+    margin-top: 15px;
 }
