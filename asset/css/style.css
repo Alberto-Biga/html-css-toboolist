@@ -10,8 +10,35 @@ body{
 #logo{
     background-color: white;
     padding-left: 20px;
+    margin-bottom: 3%;
 }
 h1{
     display: inline-block;
     font-size: 60px;
+}
+#navigation{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+} 
+
+.add{
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block
+
+}
+.task{
+    margin-left: 40px;
+    background-color: rgba(71,173,241,255);  
+} 
+.section{
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    margin-left: 5px;
 }
